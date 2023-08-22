@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height:60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav_logo{
+    height:50px;
+    width: 120px;
+}
+.logo{
+    background-image:url("amazon_logo.png");
+    background-size: cover;
+    height:50px;
+    width: Auto;
+    
+    
+
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 4%;
+}
+
+/* box2 adress , india, deliver */
+
+.adress_1st{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+   
+}
+
+.adress-2nd{
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 3px;
+    
+}
+
+.adress_icon{
+    display:flex;
+    
+    
+}
+
+/* box3 */
+.srch_bar{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: darkorange;
+    width: 500px;
+    height: 40px;
+    border: 1px;
+    border-radius: 4px;
+
+}
+.srch_bar:hover{
+    border:  2px solid darkorange;
+}
+
+.srch_input{
+    width: 100%;
+    border: none;
+    /* border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; */
+;
+
+}
+.src_select{
+    background-color: #f3f3f3ff;
+    
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.srch_button{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-self:center;
+    font-size: 1.5remS
+}
+
+
+
+/*box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-2nd{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/*box6 */
+.nav-cart i{
+ font-size: 35px
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* panel start */
+.panel{
+    height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    color: white;
+    align-items:center;
+    justify-content: space-evenly;
+    
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+   font-size: 0.9rem;
+   font-weight: 700;
+ 
+}
+
+/* hero */
+.hero-section{
+    background-image:url(hero_image.jpg);
+    background-size: cover;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+ /* shop section start */
+
+ .shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+ }
+
+ .box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+ }
